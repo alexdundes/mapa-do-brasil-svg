@@ -33,10 +33,10 @@ e no javascript inclua esse código
                 $("#mapSP").css("fill", "#e74c3c");
                 // coloca o número 15 sobre SP
                 $("#lblSP").text("15");
-                // pinta o estado de RJ de verde
-                $("#mapRJ").css("fill", "#62cb31");
-                // coloca o * sobre RJ
-                $("#lblRJ").text("15");
+                // pinta o estado de MT de verde
+                $("#mapMT").css("fill", "#62cb31");
+                // coloca o ?? sobre MT
+                $("#lblMT").text("??");
             }
         );
 ```
