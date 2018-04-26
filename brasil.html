@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>Mapa do Brasil</title>
+
+<script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+<div id="mapa-do-brasil"></div>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+        $("#mapa-do-brasil").load("brasil.svg",
+            function () {
+                // pinta o estado de SP de vermelho
+                $("#mapSP").css("fill", "#e74c3c");
+                // coloca o número 15 sobre SP
+                $("#lblSP").text("15");
+                // pinta o estado de RJ de verde
+                $("#mapRJ").css("fill", "#62cb31");
+                // coloca o * sobre RJ
+                $("#lblRJ").text("15");
+            }
+        );
+
+});
+
+</script>
+
+
+</body>
+</html>
