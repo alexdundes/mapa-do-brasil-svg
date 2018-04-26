@@ -40,3 +40,7 @@ e no javascript inclua esse código
             }
         );
 ```
+
+Resultado:
+
+![Exemplo](/exemplo.png)
